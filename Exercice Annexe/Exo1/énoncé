@@ -1,0 +1,57 @@
+# Exercice : carnet de contacts (dictionnaires)
+
+# Tu vas écrire un petit programme qui gère des contacts.
+
+# Objectif
+
+# Construire un dictionnaire contacts où :
+
+# la clé = le nom du contact (une chaîne)
+
+# la valeur = un autre dictionnaire avec les infos du contact : tel, email, age
+
+# Exemple attendu (structure) :
+
+# "Alice" -> {"tel": "...", "email": "...", "age": ...}
+
+# Partie A — ajouter un contact (niveau facile)
+
+# Crée un dictionnaire vide contacts = {}
+
+# Ajoute un contact “Alice” avec :
+
+# tel : "0612345678"
+
+# email : "alice@mail.com"
+
+# age : 23
+
+# 👉 Question guidée :
+
+# Qu’est-ce que tu mets entre crochets [...] pour ajouter une nouvelle entrée ?
+
+# Partie B — ajouter via une fonction (niveau moyen)
+
+# Écris une fonction ajouter_contact(contacts, nom, tel, email, age) qui ajoute (ou met à jour) un contact.
+
+# ✅ Test à faire :
+
+# Ajoute “Bob”
+
+# Ajoute “Alice” une deuxième fois avec un autre numéro (pour vérifier la mise à jour)
+
+# 👉 Questions guidées :
+
+# Que doit contenir contacts[nom] ?
+
+# Comment vérifier que “Alice” est bien modifiée ?
+
+# Partie C — mini défi (niveau +)
+
+# Écris une boucle qui demande à l’utilisateur d’entrer 3 contacts (nom, tel, email, age), puis les stocke dans contacts.
+
+# 👉 Indices (sans donner tout le code) :
+
+# Tu vas répéter une action 3 fois : quel outil Python est parfait pour ça ?
+
+# input() renvoie du texte : comment convertir l’âge en nombre ?
